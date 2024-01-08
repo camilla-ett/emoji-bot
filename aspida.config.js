@@ -1,1 +1,4 @@
-module.exports = { input: "src/misskey/api" };
+
+module.exports = {
+    input: "src/misskey/api", 
+};

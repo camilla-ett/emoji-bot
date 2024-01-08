@@ -8,7 +8,9 @@ export type Methods = DefineMethods<{
             i: string,
             limit: number,
             type: string | null,
+            userId: string | null,
             untilId?: string
+            
         }
         resBody: ModerationLog[]
     }

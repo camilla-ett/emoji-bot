@@ -1,3 +1,4 @@
+import { User } from "./User"
 
 export type ModerationLog = {
     id: string,
@@ -5,5 +6,5 @@ export type ModerationLog = {
     type: string,
     info: any,
     userId: string, // なんでuserとuseridがあるんですかねぇ
-    user: any, // TODO: userを作る必要がある
+    user: User
 }
